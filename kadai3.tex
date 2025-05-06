@@ -1,0 +1,52 @@
+\documentclass{jlreq}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsthm}
+\usepackage{ascmac}
+\usepackage{fancybox}
+\usepackage{listings,jvlisting}
+\lstset{
+    frame=single,
+    numbers=left,
+    tabsize=2
+}
+\title{演習3}
+\author{1270360:稗田隼也}
+\date{2月20日}
+\begin{document}
+\maketitle
+\section{課題の概要}
+この課題は、複数のクライアントが接続し、番号当てゲームをプレイできるサーバープログラムの作成で、サーバーは、1〜100のランダムな数字を決定し、接続したクライアントから送られる数字と比較して、正解なら得点を加算する。複数のクライアントが同時に接続でき、各クライアントに対して並行してゲームを進行するために、ソケット通信とselect()システムコールを使用している。
+\section{内容}
+このプログラムは、C言語を用いてソケット通信を実現し、select()を使って複数クライアントとの通信を非同期で行うサーバーを作成している。サーバーは、クライアントが接続するたびにゲームを開始し、正解が出るまで番号を当てるプロセスを繰り返す。
+サーバーソケットを設定し、クライアントの接続を待機する部分は以下である
+\begin{lstlisting}[caption=switch,label=fuga]
+    server_fd = socket(AF_INET, SOCK_STREAM, 0);
+server_addr.sin_family = AF_INET;
+server_addr.sin_addr.s_addr = INADDR_ANY;
+server_addr.sin_port = htons(PORT);
+bind(server_fd, (struct sockaddr*)&server_addr, sizeof(server_addr));
+listen(server_fd, MAX_CLIENTS);
+\end{lstlisting}
+また、selectを使用した複数処理は以下である
+\begin{lstlisting}[caption=switch,label=fuga]
+    FD_ZERO(&read_fds);
+FD_SET(server_fd, &read_fds);
+max_fd = server_fd;
+for (int i = 0; i < client_count; i++) {
+    FD_SET(clients[i].sockfd, &read_fds);
+    if (clients[i].sockfd > max_fd) {
+        max_fd = clients[i].sockfd;
+    }
+}
+activity = select(max_fd + 1, &read_fds, NULL, NULL, NULL);
+
+\end{lstlisting}
+また、この後にselectによって知らされたディスクリプタをif文で操作して新規conectなら配列に追加して、既存クライアントなら、データを読み込み、高いか低いかを返すようにしている
+
+\section{感想}
+今回の課題でサーバー側のコードを学べたが、selectではなくforkならどれくらい負担がかかるか、またpollならどれくらい負担がかかるかを多数のクライアントともちいて実験してみたいと思った。
+
+\end{document}

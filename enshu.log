@@ -1,0 +1,1105 @@
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2023.8.31)  5 FEB 2025 04:01
+ restricted system commands enabled.
+**enshu.tex
+(./enshu.tex
+LaTeX2e <2020-02-02> patch level 2
+Lua module: luaotfload-main 2020-02-02 3.12 luaotfload entry point
+Lua module: luaotfload-init 2020-02-02 3.12 luaotfload submodule / initializatio
+n
+Lua module: lualibs 2020-02-02 2.70 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-02-02 2.70 ConTeXt Lua libraries -- extended c
+ollection.
+Lua module: luaotfload-log 2020-02-02 3.12 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2020-02-02 3.12 luaotfload submodule / filelist
+Lua module: luaotfload-configuration 2020-02-02 3.12 luaotfload submodule / conf
+ig file reader
+luaotfload | conf : Root cache directory is /home/scinfo27/270360n/.texlive2019/
+texmf-var/luatex-cache/generic-dev/names.
+luaotfload | init : Loading fontloader “fontloader-2020-01-26.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2020-01-26.lua”.
+Lua-only attribute luaotfload@state = 2
+Lua-only attribute luaotfload@noligature = 3
+Lua-only attribute luaotfload@syllabe = 4
+luaotfload | init : Context OpenType loader version “3.11”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Lua module: luaotfload-loaders 2020-02-02 3.12 luaotfload submodule / callback h
+andling
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua module: luaotfload-database 2020-02-02 3.12 luaotfload submodule / database
+Lua module: luaotfload-unicode 2020-02-02 3.12 luaotfload submodule / Unicode he
+lpers
+Lua module: luaotfload-colors 2020-02-02 3.12 luaotfload submodule / color
+Lua-only attribute luaotfload_color_attribute = 5
+Lua module: luaotfload-resolvers 2020-02-02 3.12 luaotfload submodule / resolver
+s
+luaotfload | conf : Root cache directory is /home/scinfo27/270360n/.texlive2019/
+texmf-var/luatex-cache/generic-dev/names.
+Lua module: luaotfload-features 2020-02-02 3.12 luaotfload submodule / features
+Lua module: luaotfload-letterspace 2020-02-02 3.12 luaotfload submodule / color
+Lua module: luaotfload-embolden 2020-02-02 3.12 luaotfload submodule / color
+Lua module: luaotfload-notdef 2020-02-02 3.12 luaotfload submodule / color
+Lua module: luaotfload-auxiliary 2020-02-02 3.12 luaotfload submodule / auxiliar
+y functions
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Lua module: luaotfload-fallback 2020-02-02 3.12 luaotfload submodule / fallback
+Lua module: luaotfload-multiscript 2020-02-02 3.12 luaotfload submodule / multis
+cript
+Lua module: luaotfload-script 2020-02-02 3.12 luaotfload submodule / Script help
+ers
+Lua module: luaotfload-tounicode 2020-02-02 3.12 luaotfload submodule / tounicod
+e
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/scinfo27/270360n/.texliv
+e2019/texmf-var/luatex-cache/generic-dev/names/luaotfload-names.luc)
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen135
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen136
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count171
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count172
+\leftroot@=\count173
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count174
+\DOTSCASE@=\count175
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen137
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count176
+\c@MaxMatrixCols=\count177
+\dotsspace@=\muskip16
+\c@parentequation=\count178
+\dspbrk@lvl=\count179
+\tag@help=\toks15
+\row@=\count180
+\column@=\count181
+\maxfields@=\count182
+\andhelp@=\toks16
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
+\@envbody=\toks17
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+\lst@mode=\count183
+\lst@gtempboxa=\box47
+\lst@token=\toks20
+\lst@length=\count184
+\lst@currlwidth=\dimen144
+\lst@column=\count185
+\lst@pos=\count186
+\lst@lostspace=\dimen145
+\lst@width=\dimen146
+\lst@newlines=\count187
+\lst@lineno=\count188
+\lst@maxwidth=\dimen147
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count189
+\lst@skipnumbers=\count190
+\lst@framebox=\box48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count191
+\l__pdf_internal_box=\box49
+)
+No file enshu.aux.
+
+\openout1 = enshu.aux
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+\c@lstlisting=\count192
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+)
+Overfull \hbox (103.32231pt too wide) in paragraph at lines 32--33
+\TU/lmr/m/n/10 ま󰀀ず󰀀、󰀀必󰀀要󰀀な󰀀ヘ󰀀ッ󰀀ダ󰀀
+フ󰀀ァ󰀀イ󰀀ル󰀀を󰀀イ󰀀ン󰀀ク󰀀ル󰀀ー󰀀ド󰀀
+し󰀀ま󰀀す󰀀。󰀀こ󰀀れ󰀀に󰀀は󰀀、󰀀ソ󰀀ケ󰀀
+ッ󰀀ト󰀀通󰀀信󰀀に󰀀必󰀀要󰀀な󰀀ヘ󰀀ッ󰀀ダ󰀀
+（󰀀\TU/lmtt/m/n/10 sys/socket.h\TU/lmr/m/n/10 , \TU/lmtt/m/n/10 netdb.h\TU/
+lmr/m/n/10 ）󰀀や󰀀、󰀀エ󰀀ラ󰀀ー󰀀ハ󰀀ン󰀀ド󰀀リ
+󰀀ン󰀀グ󰀀、󰀀プ󰀀ロ󰀀セ󰀀ス󰀀制󰀀御󰀀に󰀀関
+󰀀連󰀀す󰀀る󰀀ラ󰀀イ󰀀ブ󰀀ラ󰀀リ󰀀が󰀀含󰀀ま
+󰀀れ󰀀て󰀀い󰀀ま󰀀す󰀀。󰀀ま󰀀た󰀀、󰀀\TU/lmtt/m/n
+/10 BUFFER_SIZE\TU/lmr/m/n/10 と󰀀し󰀀て󰀀、󰀀バ󰀀ッ󰀀フ
+󰀀ァ󰀀サ󰀀イ󰀀ズ󰀀を󰀀定󰀀義󰀀し󰀀ま󰀀す󰀀。
+󰀀 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 36--37
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (147.005pt too wide) in paragraph at lines 39--40
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+Missing character: There is no 概 (U+6982) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no 要 (U+8981) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no こ (U+3053) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no の (U+306E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ロ (U+30ED) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no グ (U+30B0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ラ (U+30E9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ム (U+30E0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no は (U+306F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 指 (U+6307) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 定 (U+5B9A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no さ (U+3055) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no れ (U+308C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no た (U+305F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ホ (U+30DB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ト (U+30C8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 名 (U+540D) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no と (U+3068) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ポ (U+30DD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ト (U+30C8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no に (U+306B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 接 (U+63A5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 続 (U+7D9A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no サ (U+30B5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no バ (U+30D0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no と (U+3068) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 双 (U+53CC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 方 (U+65B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 向 (U+5411) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no で (U+3067) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no デ (U+30C7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no タ (U+30BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 送 (U+9001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 受 (U+53D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 信 (U+4FE1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no る (U+308B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ク (U+30AF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ラ (U+30E9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no イ (U+30A4) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ア (U+30A2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ン (U+30F3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ト (U+30C8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ロ (U+30ED) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no グ (U+30B0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ラ (U+30E9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ム (U+30E0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no で (U+3067) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ソ (U+30BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ケ (U+30B1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ッ (U+30C3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ト (U+30C8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 使 (U+4F7F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 用 (U+7528) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no て (U+3066) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no デ (U+30C7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no タ (U+30BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no の (U+306E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 送 (U+9001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 受 (U+53D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 信 (U+4FE1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 行 (U+884C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no い (U+3044) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 子 (U+5B50) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ロ (U+30ED) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no セ (U+30BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no で (U+3067) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 受 (U+53D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 信 (U+4FE1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 処 (U+51E6) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 理 (U+7406) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 親 (U+89AA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ロ (U+30ED) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no セ (U+30BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no で (U+3067) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 送 (U+9001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 信 (U+4FE1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 処 (U+51E6) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 理 (U+7406) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 行 (U+884C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no い (U+3044) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no コ (U+30B3) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no ド (U+30C9) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no の (U+306E) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no 説 (U+8AAC) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no 明 (U+660E) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no イ (U+30A4) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no ン (U+30F3) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no ク (U+30AF) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no ル (U+30EB) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no ド (U+30C9) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no と (U+3068) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no 定 (U+5B9A) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no 数 (U+6570) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no 定 (U+5B9A) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no 義 (U+7FA9) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ず (U+305A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 必 (U+5FC5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 要 (U+8981) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no な (U+306A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ヘ (U+30D8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ッ (U+30C3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ダ (U+30C0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no フ (U+30D5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ァ (U+30A1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no イ (U+30A4) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ル (U+30EB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no イ (U+30A4) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ン (U+30F3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ク (U+30AF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ル (U+30EB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ド (U+30C9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no こ (U+3053) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no れ (U+308C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no に (U+306B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no は (U+306F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ソ (U+30BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ケ (U+30B1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ッ (U+30C3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ト (U+30C8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 通 (U+901A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 信 (U+4FE1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no に (U+306B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 必 (U+5FC5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 要 (U+8981) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no な (U+306A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ヘ (U+30D8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ッ (U+30C3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ダ (U+30C0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no （ (U+FF08) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ） (U+FF09) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no や (U+3084) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no エ (U+30A8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ラ (U+30E9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ハ (U+30CF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ン (U+30F3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ド (U+30C9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no リ (U+30EA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ン (U+30F3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no グ (U+30B0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ロ (U+30ED) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no セ (U+30BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 制 (U+5236) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 御 (U+5FA1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no に (U+306B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 関 (U+95A2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 連 (U+9023) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no る (U+308B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ラ (U+30E9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no イ (U+30A4) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ブ (U+30D6) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ラ (U+30E9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no リ (U+30EA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no が (U+304C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 含 (U+542B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no れ (U+308C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no て (U+3066) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no い (U+3044) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no た (U+305F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no と (U+3068) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no て (U+3066) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no バ (U+30D0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ッ (U+30C3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no フ (U+30D5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ァ (U+30A1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no サ (U+30B5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no イ (U+30A4) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ズ (U+30BA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 定 (U+5B9A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 義 (U+7FA9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 関 (U+95A2) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no 数 (U+6570) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no シ (U+30B7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no グ (U+30B0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ナ (U+30CA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ル (U+30EB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 割 (U+5272) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no り (U+308A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 込 (U+8FBC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no み (U+307F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 時 (U+6642) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no は (U+306F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no リ (U+30EA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ト (U+30C8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ラ (U+30E9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no イ (U+30A4) in font [lmroman10-regular]:+tlig;!
+]
+Overfull \hbox (15.85034pt too wide) in paragraph at lines 50--51
+\TU/lmtt/m/n/10 write_all\TU/lmr/m/n/10 関󰀀数󰀀は󰀀、󰀀指󰀀定
+󰀀さ󰀀れ󰀀た󰀀バ󰀀ッ󰀀フ󰀀ァ󰀀か󰀀ら󰀀す󰀀べ
+󰀀て󰀀の󰀀デ󰀀ー󰀀タ󰀀を󰀀ソ󰀀ケ󰀀ッ󰀀ト󰀀に
+󰀀書󰀀き󰀀込󰀀む󰀀た󰀀め󰀀の󰀀ラ󰀀ッ󰀀パ󰀀ー
+󰀀関󰀀数󰀀で󰀀す󰀀。󰀀ソ󰀀ケ󰀀ッ󰀀ト󰀀へ󰀀の
+󰀀書󰀀き󰀀込󰀀み󰀀が󰀀途󰀀中󰀀で󰀀失󰀀敗󰀀し
+󰀀た󰀀場󰀀合󰀀、󰀀シ󰀀グ󰀀ナ󰀀ル󰀀割󰀀り󰀀込
+󰀀み󰀀が󰀀あ󰀀っ󰀀た󰀀場󰀀合󰀀に󰀀は󰀀リ󰀀ト
+󰀀ラ󰀀イ󰀀を󰀀行󰀀い󰀀、󰀀す󰀀べ󰀀て󰀀の󰀀デ
+󰀀ー󰀀タ󰀀が󰀀書󰀀き󰀀込󰀀ま󰀀れ󰀀る󰀀ま󰀀で
+󰀀繰󰀀り󰀀返󰀀し󰀀ま󰀀す󰀀。󰀀 
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 56--57
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (75.00427pt too wide) in paragraph at lines 77--78
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (27.00378pt too wide) in paragraph at lines 80--81
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 93--94
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (172.65047pt too wide) in paragraph at lines 95--96
+\TU/lmr/m/n/10 こ󰀀の󰀀部󰀀分󰀀で󰀀は󰀀、󰀀コ󰀀マ󰀀
+ン󰀀ド󰀀ラ󰀀イ󰀀ン󰀀引󰀀数󰀀と󰀀し󰀀て󰀀ホ󰀀
+ス󰀀ト󰀀名󰀀と󰀀ポ󰀀ー󰀀ト󰀀番󰀀号󰀀を󰀀受󰀀
+け󰀀取󰀀り󰀀、󰀀そ󰀀れ󰀀を󰀀使󰀀用󰀀し󰀀て󰀀
+サ󰀀ー󰀀バ󰀀ー󰀀に󰀀接󰀀続󰀀し󰀀ま󰀀す󰀀。󰀀
+ま󰀀ず󰀀、󰀀\TU/lmtt/m/n/10 getaddrinfo\TU/lmr/m/n/10 を󰀀使󰀀
+用󰀀し󰀀て󰀀ホ󰀀ス󰀀ト󰀀名󰀀と󰀀ポ󰀀ー󰀀ト󰀀
+に󰀀基󰀀づ󰀀く󰀀接󰀀続󰀀可󰀀能󰀀な󰀀ア󰀀ド󰀀
+レ󰀀ス󰀀を󰀀解󰀀決󰀀し󰀀、󰀀接󰀀続󰀀可󰀀能󰀀
+な󰀀ア󰀀ド󰀀レ󰀀ス󰀀が󰀀見󰀀つ󰀀か󰀀る󰀀ま󰀀
+で󰀀ル󰀀ー󰀀プ󰀀し󰀀ま󰀀す󰀀。󰀀接󰀀続󰀀に󰀀
+成󰀀功󰀀し󰀀た󰀀場󰀀合󰀀は󰀀、󰀀\TU/lmtt/m/n/10 sockfd\
+TU/lmr/m/n/10 に󰀀ソ󰀀ケ󰀀ッ󰀀ト󰀀フ󰀀ァ󰀀イ󰀀ル󰀀
+デ󰀀ィ󰀀ス󰀀ク󰀀リ󰀀プ󰀀タ󰀀が󰀀格󰀀納󰀀さ󰀀
+れ󰀀、󰀀接󰀀続󰀀が󰀀確󰀀立󰀀さ󰀀れ󰀀ま󰀀す󰀀
+。󰀀 
+ []
+
+[2
+Missing character: There is no 関 (U+95A2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no は (U+306F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 指 (U+6307) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 定 (U+5B9A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no さ (U+3055) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no れ (U+308C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no た (U+305F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no バ (U+30D0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ッ (U+30C3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no フ (U+30D5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ァ (U+30A1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no か (U+304B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ら (U+3089) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no べ (U+3079) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no て (U+3066) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no の (U+306E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no デ (U+30C7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no タ (U+30BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ソ (U+30BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ケ (U+30B1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ッ (U+30C3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ト (U+30C8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no に (U+306B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 書 (U+66F8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no き (U+304D) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 込 (U+8FBC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no む (U+3080) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no た (U+305F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no め (U+3081) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no の (U+306E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ラ (U+30E9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ッ (U+30C3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no パ (U+30D1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 関 (U+95A2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no で (U+3067) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ソ (U+30BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ケ (U+30B1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ッ (U+30C3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ト (U+30C8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no へ (U+3078) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no の (U+306E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 書 (U+66F8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no き (U+304D) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 込 (U+8FBC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no み (U+307F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no が (U+304C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 途 (U+9014) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 中 (U+4E2D) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no で (U+3067) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 失 (U+5931) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 敗 (U+6557) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no た (U+305F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 場 (U+5834) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 合 (U+5408) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no シ (U+30B7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no グ (U+30B0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ナ (U+30CA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ル (U+30EB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 割 (U+5272) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no り (U+308A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 込 (U+8FBC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no み (U+307F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no が (U+304C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no あ (U+3042) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no っ (U+3063) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no た (U+305F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 場 (U+5834) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 合 (U+5408) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no に (U+306B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no は (U+306F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no リ (U+30EA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ト (U+30C8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ラ (U+30E9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no イ (U+30A4) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 行 (U+884C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no い (U+3044) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no べ (U+3079) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no て (U+3066) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no の (U+306E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no デ (U+30C7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no タ (U+30BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no が (U+304C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 書 (U+66F8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no き (U+304D) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 込 (U+8FBC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no れ (U+308C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no る (U+308B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no で (U+3067) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 繰 (U+7E70) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no り (U+308A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 返 (U+8FD4) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 関 (U+95A2) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no 数 (U+6570) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no 接 (U+63A5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 続 (U+7D9A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 成 (U+6210) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 功 (U+529F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no こ (U+3053) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no の (U+306E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 部 (U+90E8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 分 (U+5206) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no で (U+3067) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no は (U+306F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no コ (U+30B3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no マ (U+30DE) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ン (U+30F3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ド (U+30C9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ラ (U+30E9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no イ (U+30A4) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ン (U+30F3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 引 (U+5F15) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 数 (U+6570) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no と (U+3068) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no て (U+3066) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ホ (U+30DB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ト (U+30C8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 名 (U+540D) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no と (U+3068) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ポ (U+30DD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ト (U+30C8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 番 (U+756A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 号 (U+53F7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 受 (U+53D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no け (U+3051) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 取 (U+53D6) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no り (U+308A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no そ (U+305D) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no れ (U+308C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 使 (U+4F7F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 用 (U+7528) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no て (U+3066) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no サ (U+30B5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no バ (U+30D0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no に (U+306B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 接 (U+63A5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 続 (U+7D9A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ず (U+305A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 使 (U+4F7F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 用 (U+7528) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no て (U+3066) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ホ (U+30DB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ト (U+30C8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 名 (U+540D) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no と (U+3068) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ポ (U+30DD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ト (U+30C8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no に (U+306B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 基 (U+57FA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no づ (U+3065) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no く (U+304F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 接 (U+63A5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 続 (U+7D9A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 可 (U+53EF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 能 (U+80FD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no な (U+306A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ア (U+30A2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ド (U+30C9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no レ (U+30EC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 解 (U+89E3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 決 (U+6C7A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 接 (U+63A5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 続 (U+7D9A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 可 (U+53EF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 能 (U+80FD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no な (U+306A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ア (U+30A2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ド (U+30C9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no レ (U+30EC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no が (U+304C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 見 (U+898B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no つ (U+3064) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no か (U+304B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no る (U+308B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no で (U+3067) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ル (U+30EB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 接 (U+63A5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 続 (U+7D9A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no に (U+306B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 成 (U+6210) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 功 (U+529F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no た (U+305F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 場 (U+5834) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 合 (U+5408) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no は (U+306F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no に (U+306B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ソ (U+30BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ケ (U+30B1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ッ (U+30C3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ト (U+30C8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no フ (U+30D5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ァ (U+30A1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no イ (U+30A4) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ル (U+30EB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no デ (U+30C7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ィ (U+30A3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ク (U+30AF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no リ (U+30EA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no タ (U+30BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no が (U+304C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 格 (U+683C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 納 (U+7D0D) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no さ (U+3055) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no れ (U+308C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 接 (U+63A5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 続 (U+7D9A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no が (U+304C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 確 (U+78BA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 立 (U+7ACB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no さ (U+3055) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no れ (U+308C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:+tlig;!
+]
+Overfull \hbox (39.0039pt too wide) in paragraph at lines 110--112
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 129--130
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (39.0039pt too wide) in paragraph at lines 130--131
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.00366pt too wide) in paragraph at lines 136--137
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[3
+Missing character: There is no プ (U+30D7) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no ロ (U+30ED) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no セ (U+30BB) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no の (U+306E) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no 分 (U+5206) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no 岐 (U+5C90) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no 子 (U+5B50) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ロ (U+30ED) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no セ (U+30BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 受 (U+53D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 信 (U+4FE1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 処 (U+51E6) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 理 (U+7406) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 終 (U+7D42) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 端 (U+7AEF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 親 (U+89AA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ロ (U+30ED) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no セ (U+30BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 送 (U+9001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 信 (U+4FE1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 処 (U+51E6) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 理 (U+7406) in font [lmroman10-regular]:+tlig;!
+] [4
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ロ (U+30ED) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no セ (U+30BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 分 (U+5206) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 岐 (U+5C90) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 親 (U+89AA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ロ (U+30ED) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no セ (U+30BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no と (U+3068) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 子 (U+5B50) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ロ (U+30ED) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no セ (U+30BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no そ (U+305D) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no れ (U+308C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ぞ (U+305E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no れ (U+308C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 送 (U+9001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 信 (U+4FE1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 処 (U+51E6) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 理 (U+7406) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no と (U+3068) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 受 (U+53D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 信 (U+4FE1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 処 (U+51E6) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 理 (U+7406) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no に (U+306B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 割 (U+5272) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no り (U+308A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 当 (U+5F53) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no て (U+3066) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 子 (U+5B50) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ロ (U+30ED) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no セ (U+30BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no は (U+306F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no サ (U+30B5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no バ (U+30D0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no か (U+304B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ら (U+3089) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no の (U+306E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no デ (U+30C7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no タ (U+30BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 受 (U+53D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 信 (U+4FE1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 親 (U+89AA) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ロ (U+30ED) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no セ (U+30BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no は (U+306F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ユ (U+30E6) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ザ (U+30B6) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no か (U+304B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ら (U+3089) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no の (U+306E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 入 (U+5165) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 力 (U+529B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no サ (U+30B5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no バ (U+30D0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no に (U+306B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 送 (U+9001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 信 (U+4FE1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 送 (U+9001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 信 (U+4FE1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 処 (U+51E6) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 理 (U+7406) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no が (U+304C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 終 (U+7D42) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 了 (U+4E86) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no た (U+305F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 場 (U+5834) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 合 (U+5408) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 子 (U+5B50) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ロ (U+30ED) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no セ (U+30BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no も (U+3082) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 終 (U+7D42) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 了 (U+4E86) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no と (U+3068) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no め (U+3081) in font [lmroman12-bold]:+tlig;!
+Missing character: There is no こ (U+3053) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no の (U+306E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ロ (U+30ED) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no グ (U+30B0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ラ (U+30E9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ム (U+30E0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no は (U+306F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 言 (U+8A00) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 語 (U+8A9E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 使 (U+4F7F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 用 (U+7528) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no て (U+3066) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ソ (U+30BD) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ケ (U+30B1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ッ (U+30C3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ト (U+30C8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 通 (U+901A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 信 (U+4FE1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 行 (U+884C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no い (U+3044) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no サ (U+30B5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no バ (U+30D0) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no と (U+3068) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ク (U+30AF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ラ (U+30E9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no イ (U+30A4) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ア (U+30A2) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ン (U+30F3) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ト (U+30C8) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 間 (U+9593) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no で (U+3067) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no デ (U+30C7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no タ (U+30BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 双 (U+53CC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 方 (U+65B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 向 (U+5411) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no に (U+306B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 送 (U+9001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 受 (U+53D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 信 (U+4FE1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no る (U+308B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 方 (U+65B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 法 (U+6CD5) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 示 (U+793A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no し (U+3057) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no て (U+3066) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no い (U+3044) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no プ (U+30D7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ロ (U+30ED) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no セ (U+30BB) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ス (U+30B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no の (U+306E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 分 (U+5206) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 岐 (U+5C90) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 利 (U+5229) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 用 (U+7528) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no る (U+308B) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no こ (U+3053) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no と (U+3068) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no で (U+3067) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 非 (U+975E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 同 (U+540C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 期 (U+671F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no で (U+3067) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no の (U+306E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no デ (U+30C7) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ー (U+30FC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no タ (U+30BF) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 処 (U+51E6) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 理 (U+7406) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no を (U+3092) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 行 (U+884C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no い (U+3044) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 効 (U+52B9) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 率 (U+7387) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 的 (U+7684) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no な (U+306A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 通 (U+901A) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 信 (U+4FE1) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no が (U+304C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 実 (U+5B9F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 現 (U+73FE) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no さ (U+3055) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no れ (U+308C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no て (U+3066) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no い (U+3044) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ま (U+307E) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no す (U+3059) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no 。 (U+3002) in font [lmroman10-regular]:+tlig;!
+] (./enshu.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 2830 strings out of 481365
+ 100000,552014 words of node,token memory allocated
+ 484 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 6 attribute, 52 glue_spec,
+ 6 attribute_list, 1 write nodes
+   avail lists: 2:1685,3:54,4:6,5:448,6:47,7:3024,8:1,9:1432,10:5,11:2
+ 19897 multiletter control sequences out of 65536+600000
+ 57 fonts using 5798547 bytes
+ 30i,5n,53p,505b,572s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texmf/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texm
+f/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texmf/fonts/opentype
+/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman
+10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf></u
+sr/share/texmf/fonts/opentype/public/lm/lmroman17-regular.otf></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on enshu.pdf (4 pages, 38635 bytes).
+
+PDF statistics: 63 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+

@@ -1,0 +1,153 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{listings}
+
+\begin{document}
+
+\title{TCP Client Program in C}
+\author{}
+\date{}
+\maketitle
+
+\section{概要}
+このプログラムは、指定されたホスト名とポートに接続し、サーバーと双方向でデータを送受信するTCPクライアントプログラムです。ソケットを使用して、データの送受信を行い、子プロセスで受信処理を、親プロセスで送信処理を行います。
+
+\section{コードの説明}
+
+\subsection{インクルードと定数定義}
+\begin{lstlisting}[language=C]
+#include <stdio.h>
+#include <unistd.h>
+#include <strings.h>
+#include <string.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netdb.h>
+#include <errno.h>
+#include <signal.h>
+
+#define BUFFER_SIZE BUFSIZ
+\end{lstlisting}
+まず、必要なヘッダファイルをインクルードします。これには、ソケット通信に必要なヘッダ（\texttt{sys/socket.h}, \texttt{netdb.h}）や、エラーハンドリング、プロセス制御に関連するライブラリが含まれています。また、\texttt{BUFFER\_SIZE}として、バッファサイズを定義します。
+
+\subsection{write\_all関数}
+\begin{lstlisting}[language=C]
+ssize_t write_all(int sockfd, const void *buf, size_t len) {
+    size_t total_written = 0;
+    while (total_written < len) {
+        ssize_t written = write(sockfd, buf + total_written, len - total_written);
+        if (written <= 0) {
+            if (errno == EINTR) continue; // シグナル割り込み時はリトライ
+            perror("write error");
+            return -1;
+        }
+        total_written += written;
+    }
+    return total_written;
+}
+\end{lstlisting}
+\texttt{write\_all}関数は、指定されたバッファからすべてのデータをソケットに書き込むためのラッパー関数です。ソケットへの書き込みが途中で失敗した場合、シグナル割り込みがあった場合にはリトライを行い、すべてのデータが書き込まれるまで繰り返します。
+
+\subsection{main関数}
+\begin{lstlisting}[language=C]
+int main(int argc, char *argv[]) { 
+    if (argc != 3) {
+        fprintf(stderr, "Usage: %s <hostname> <port>\n", argv[0]);
+        exit(EXIT_FAILURE);
+    }
+
+    const char *hostname = argv[1];
+    const char *port = argv[2];
+    
+    int sockfd;
+    struct addrinfo hints, *res, *p;
+    signal(SIGPIPE, SIG_IGN);
+
+    memset(&hints, 0, sizeof(hints));
+    hints.ai_family = AF_INET;       // IPv4
+    hints.ai_socktype = SOCK_STREAM; // TCP
+
+    if (getaddrinfo(hostname, port, &hints, &res) != 0) {
+        perror("getaddrinfo");
+        exit(EXIT_FAILURE);
+    }
+
+    for (p = res; p != NULL; p = p->ai_next) {
+        sockfd = socket(p->ai_family, p->ai_socktype, p->ai_protocol);
+        if (sockfd < 0) continue;
+
+        if (connect(sockfd, p->ai_addr, p->ai_addrlen) == 0) {
+            break; // 接続成功
+        }
+        close(sockfd);
+    }
+
+    if (p == NULL) {
+        fprintf(stderr, "Failed to connect to server\n");
+        freeaddrinfo(res);
+        exit(EXIT_FAILURE);
+    }
+
+    freeaddrinfo(res);
+    printf("Connected to %s on port %s\n", hostname, port);
+\end{lstlisting}
+この部分では、コマンドライン引数としてホスト名とポート番号を受け取り、それを使用してサーバーに接続します。まず、\texttt{getaddrinfo}を使用してホスト名とポートに基づく接続可能なアドレスを解決し、接続可能なアドレスが見つかるまでループします。接続に成功した場合は、\texttt{sockfd}にソケットファイルディスクリプタが格納され、接続が確立されます。
+
+\subsection{プロセスの分岐}
+\begin{lstlisting}[language=C]
+    pid_t pid = fork();
+    if (pid < 0) {
+        perror("fork failed");
+        close(sockfd);
+        exit(EXIT_FAILURE);
+    }
+
+    if (pid == 0) { // 子プロセス: 受信処理
+        char buf[BUFFER_SIZE];
+        while (1) {
+            memset(buf, 0, BUFFER_SIZE);
+            ssize_t nbytes = read(sockfd, buf, BUFFER_SIZE - 1);
+            
+            if (nbytes < 0) {
+                perror("read error");
+                break;
+            } else if (nbytes == 0) { 
+                printf("Server disconnected.\n");
+                break;
+            }
+
+            buf[nbytes] = '\0'; // NULL終端
+            fputs(buf, stdout);
+        }
+        close(sockfd);
+        exit(0);
+    } else { // 親プロセス: 送信処理
+        char mesg[BUFFER_SIZE];
+        while (1) {
+            memset(mesg, 0, BUFFER_SIZE);
+            if (fgets(mesg, BUFFER_SIZE, stdin) == NULL) {
+                printf("EOF detected. Closing connection...\n");
+                break;
+            }
+
+            mesg[strcspn(mesg, "\n")] = '\0';
+
+            if (write_all(sockfd, mesg, strlen(mesg)) < 0) {
+                break;
+            }
+        }
+        
+        kill(pid, SIGKILL);
+        close(sockfd);
+    }
+
+    return 0;
+}
+\end{lstlisting}
+プロセスを分岐し、親プロセスと子プロセスをそれぞれ送信処理と受信処理に割り当てます。子プロセスはサーバーからのデータを受信し、親プロセスはユーザーからの入力をサーバーに送信します。送信処理が終了した場合、子プロセスも終了します。
+
+\section{まとめ}
+このプログラムは、C言語を使用してTCPソケット通信を行い、サーバーとクライアント間でデータを双方向に送受信する方法を示しています。プロセスの分岐を利用することで、非同期でのデータ処理を行い、効率的な通信が実現されています。
+
+\end{document}

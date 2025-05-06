@@ -1,0 +1,48 @@
+\documentclass{jlreq}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsthm}
+\usepackage{ascmac}
+\usepackage{fancybox}
+\usepackage{listings,jvlisting}
+\lstset{
+    frame=single,
+    numbers=left,
+    tabsize=2
+}
+\title{演習2}
+\author{1270360:稗田隼也}
+\date{1月21日}
+\begin{document}
+\maketitle
+\section{安易なパスワードの危険性}
+安易なパスワードを使うことで辞書型攻撃などの攻撃で容易にパスワードを知ることができ、不正アクセスをされる危険性がある。今回は一連の流れについて学んだことを説明する。
+\section{方法}
+今回行うのはipカメラの攻撃についてだ。流れとしてポートスキャンにより、ipカメラが動いているポートを特定し、アクセスする。今回は、攻撃用の踏み台サーバーに入ることで行うので今現在のpcでurlからアクセスできるかも知れないが、今回はssh転送を使い、自分のローカルホストからアクセスする。
+アクセスすると、ユーザー名とパスワードが要求されるので、辞書型攻撃を使い、特定する。特定できた情報を入力することでアクセスできる。
+\begin{lstlisting}[caption=switch,label=fuga]
+    nmap –Pn –n –A –p- <ipカメラのIPアドレス>
+\end{lstlisting}
+nmapを使用することで指定のipのサービスとポートを特定できる。
+\begin{lstlisting}[caption=switch,label=fuga]
+    hydra –t 5 –L /opt/iot/mirai/user.txt –P 
+    /opt/iot/mirai/pass.txt http-get://<ipカメラのIPアドレス>:特定できたポート/
+\end{lstlisting}
+hydraを使うことで登録されている辞書のデータを参照して総当りができる。
+以上の作業を行うことで、不正にアクセスできてしまう。そのためパスワードを設定するときは辞書にないようなパスワードにする必要がある。
+\section{アップデートをしない危険性}
+また、アップデートを行わないことで発見された脆弱性がそのままになり、とても危険な状態になる。今回はその例を実験した。
+
+\section{方法}
+ipカメラには外部からアップデートファイルを送って実行させる際パスワードが必要だが、空欄で実行できてしまう脆弱性が存在する。
+\begin{lstlisting}[caption=switch,label=fuga]
+    curl –X POST –F “file1=@fw.bin;filename=fw.bin” 
+    “http://<機器のIPアドレス>:45678/upgrade_firmware.cgi?loginuse&loginpas”
+\end{lstlisting}
+curlを実行することで指定の動作をリクエストできる。リクエストするファイルに実行させたいコマンドを記述することで実行できてしまう。
+ただし、アップデートファイルに忍ばせる関係上、再起動してしまうので怪しまれないためにtelnetサーバーを起動させるような実行をさせることが多い。
+\section{演習の感想}
+今回の演習で、特に、アップデートをしないことで生まれる脆弱性の恐ろしさについて学べた。
+\end{document}
